@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @SahilShaikh
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- Q- Remove array element by shifting elements from right to left
+remove(n) in the comments below indicates remove elements from the nth index of the
+array
 
-<!---
-MrSahilShaikh/MrSahilShaikh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+examples of suggested inputs and outputs-
+// [1, 2, 3] -- remove(1) --> [1, 3, 3] --> [1, 3]
+// [1, 2, 3, 4, 5, 6] -- remove(2) --> [1, 2, 4, 5, 6, 6] --> [1, 2, 4,
+5, 6]
+// [1, 2, 3, 4, 5, 6] -- remove(0) --> [2, 3, 4, 5, 6, 6] --> [2, 3, 4,
+5, 6]
+// [1] -- remove(0) --> [1] --> []
